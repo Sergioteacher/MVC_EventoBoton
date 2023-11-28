@@ -1,5 +1,8 @@
 package mvc_EventoBoton;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.JFrame;
 
 public class Controle {
@@ -11,6 +14,12 @@ public class Controle {
 		super();
 		Mi_ModeloDatos = mi_ModeloDatos;
 		Mi_VentanaEventoBoton = mi_VentanaEventoBoton;
+		
+		Mi_VentanaEventoBoton.bBoton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				System.out.println("Hola");
+			}
+		});
 	}
 	
 	public void iniciarVista() {
