@@ -9,7 +9,7 @@ public class MVC_EventoBoton {
 
 	/**
 	 * Método estático iniciador
-	 * @param args
+	 * @param args - Valores de inicio tipo String.
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
