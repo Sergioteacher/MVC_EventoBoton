@@ -11,13 +11,21 @@ import java.awt.Font;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
+/**
+ * Clase del interfaz gráfico
+ * @author Sergio Teacher
+ *
+ */
 public class VentanaEventoBoton extends JFrame {
 
 	private JPanel contentPane;
+	/**
+	 * El "botón"  centro del proyecto.
+	 */
 	JButton bBoton;
 
 	/**
-	 * Create the frame.
+	 * Creado el frame principal.
 	 */
 	public VentanaEventoBoton() {
 		//setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

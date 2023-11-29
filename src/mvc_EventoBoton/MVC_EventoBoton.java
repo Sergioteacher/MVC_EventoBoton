@@ -1,7 +1,16 @@
 package mvc_EventoBoton;
 
+/**
+ * Clase principal del proyecto
+ * @author Sergio Teacher
+ * @version 1.0
+ */
 public class MVC_EventoBoton {
 
+	/**
+	 * Método estático iniciador
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Iniciando programa ...");

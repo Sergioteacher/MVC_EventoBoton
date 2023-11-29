@@ -10,6 +10,11 @@ public class Controle {
 	private ModeloDatos Mi_ModeloDatos;
 	private VentanaEventoBoton Mi_VentanaEventoBoton;
 
+	/**
+	 * El constructor de "Controle"
+	 * @param mi_ModeloDatos         - tipo {@link ModeloDatos}
+	 * @param mi_VentanaEventoBoton  - tipo {@link VentanaEventoBoton}
+	 */
 	public Controle(ModeloDatos mi_ModeloDatos, VentanaEventoBoton mi_VentanaEventoBoton) {
 		super();
 		Mi_ModeloDatos = mi_ModeloDatos;
@@ -22,6 +27,9 @@ public class Controle {
 		});
 	}
 	
+	/**
+	 * Método iniciador del interfaz
+	 */
 	public void iniciarVista() {
 		Mi_ModeloDatos.setNombreVentana("Ventanita Principal");
 		
